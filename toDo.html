@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>What Are Your Plans?</title>
+    <link rel="stylesheet" href="toDo.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Paaji+2|IBM+Plex+Mono|Poiret+One|Slabo+27px|Spartan|Special+Elite&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <div id="big-parent-grid">
+      <div class="big-parent-child-1">
+      <!---------- Texts-------- -->
+
+
+      <div class="bnjr">
+        <h2 class="original">Bonjour Mr.</h2>
+        <h2 class="trans">Wesh Mr.</h2>
+      </div>
+
+
+
+
+        <div class="what-are-your-plans">
+          <h3 class="original">What are your plans for today?</h3>
+          <h3 class="trans">Wesh rak hab edir elyoum?</h3>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <p class="localDate">
+          <span class="day"></span>
+          <span class="date"></span>
+          <span class="month"></span>
+          <span class="year"></span>
+        </p>
+
+
+      <div class="lang">
+        <small class="before" draggable="true">languages <span style="font-size: 9.5px;">▼</span></small>
+
+        <div class="drops english" draggable="true">English</div>
+        <div class="drops dardja" draggable="true">francais</div>
+      </div>
+
+
+
+
+
+
+
+
+      <!---------- Arrow Image-------- -->
+        <img src="smooth-arrow.png" alt="Just a Smooth Arrow" draggable="true">
+      <!---------- Animation Area-------- -->
+        <div class="box-area">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </div>
+      </div>
+
+
+      <div class="big-parent-child-2">
+        <!----------Search Bar input-------- -->
+        <div class="input-flex">
+          <input type="text" placeholder="Quick Search..." class="search">
+        </div>
+        <!----------items grey space (new div)-------- -->
+        <div class="grey-space">
+          <ul draggable="true">
+
+
+            <li>
+              <span class="text original">those are just Examples</span>
+              <span class="text trans">hado chwiya emt</span>
+              <span class="trash original">Delete</span>
+              <span class="trash trans">suprimi</span>
+            </li>
+
+
+            <li>
+              <span class="text original">i will drink some coffee</span>
+              <span class="text trans">nechreb chwiya 9ahwa</span>
+              <span class="trash original">Delete</span>
+              <span class="trash trans">suprimi</span>
+            </li>
+
+
+            <li>
+              <span class="text original">go for some fresh air</span>
+              <span class="text trans">nroh nchem chwiya howa</span>
+              <span class="trash original">Delete</span>
+              <span class="trash trans">suprimi</span>
+            </li>
+
+          <!-- -----------add item form ----- -->
+        </div>
+          <form id="only-form">
+            <input type="text" placeholder="What Will You Do To Day?">
+            <button id="original-btn-add"><span class="original">Add Task</span></button>
+            <button id="trans-btn-add"><span class="trans">ajouti 3afsa</span></button>
+          </form>
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="toDo.js"></script>
+  </body>
+</html>
